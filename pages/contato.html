@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="autor" content="Gustavo Lourenco">
+	<meta name="palavraschaves" content="html5, wedd1">
+	<meta name="gerador" content="NotePad++">
+	<title>Memento Gus</title>
+	<link rel="shortcut icon" href="../images/logoF.ico">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/content.css">
+	<link rel="stylesheet" type="text/css" href="../css/contato.css">
+</head>
+
+<body>
+	<header>
+		<a id="inicio">
+			<a href="../index.html"><img src="../images/logoF.png"></a>
+			<input type="checkbox" id="check">
+			<label for="check" id="check-icon"><img src="../images/icons/menu.png"></label>
+			<div id="nav-bar"></div>
+			<div class="barra">
+				<nav class="menu">
+					<li><a href="../pages/projetos.html">Projetos</a>
+						<ul class="sub-menu">
+							<li><a href="#">Tempestade no Sótão</a></li>
+							<li><a href="#">Ilustrando o Porão</a></li>
+							<li><a href="#">Fotografando Aurélio</a></li>
+						</ul>
+					</li>
+					<li><a href="../pages/sobre.html">Quem sou eu</a></li>
+				</nav>
+			</div>
+			<li id="btn-form"><a href="../pages/contato.html" target="_blank">Fala ai, como posso ajudar?</a></li>
+	</header>
+	<section id="cont-pri">
+		<h1>Quer fechar um orçamento?</h1>
+		<p>Faço Ilustrações, desenhos, edições de video e algumas fotografias, sou autodidata, então toda experiência é
+			bem vinda, mais ainda valiosa, bora fechar algo po, se não, feedbacks sempre são bem vindos!</p>
+	</section>
+	<section id="cont-sec">
+		<form action="#" method="post">
+
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" required><br><br>
+
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email" required><br><br>
+
+			<label for="telef">Telefone:</label>
+			<input type="tel" id="telef" name="telef" required><br><br>
+
+			<label for="serv">Qual o serviço / Sobre o que quer falar:</label><br>
+			<input type="radio" id="fot" name="serv" value="fot" required>
+			<label for="fot">Fotos</label><br>
+			<input type="radio" id="edi" name="serv" value="edi">
+			<label for="edi">Edição de video</label><br>
+			<input type="radio" id="pin" name="serv" value="pin">
+			<label for="pin">Pintura</label><br>
+			<input type="radio" id="ilu" name="serv" value="ilu">
+			<label for="ilu">Ilustração</label><br><br>
+
+			<label for="ped">Detalhes do pedido / Feedback:</label><br>
+			<textarea id="ped" name="ped" maxlength="300" rows="5" cols="50" required></textarea><br>
+
+			<br>
+			<script src="https://vivirenremoto.github.io/doomcaptcha/script.js?version=16" countdown="on"
+				label="Captcha" enemies="4"></script><br>
+
+			<button type="submit" value="Enviar">Enviar</button>
+			<button type="reset" value="Limpar">Limpar</button><br><br>
+		</form>
+	</section>
+	<aside>
+		<nav id="nav-footer">
+			<li><a href="https://www.instagram.com/don.guzz/" target="_blank"><img src="../images/icons/insta.png"></a>
+			</li>
+			<li><a href="#"><img src="../images/icons/email.png"></a></li>
+			<li><a href="#inicio"><img src="../images/icons/arrow.png"></a></li>
+		</nav>
+	</aside>
+	<footer>
+		<pre>Todos os direitos reservados, Gustavo Lourenço&copy</pre>
+	</footer>
+</body>
+
+</html>
