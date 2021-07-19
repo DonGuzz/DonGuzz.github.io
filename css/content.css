@@ -1,0 +1,182 @@
+#principal {
+    height: 300px;
+}
+#principal p{
+	margin-right: 250px;
+    line-height: 1.2;
+}
+#principal p::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+#principal figure {
+    text-align: center;
+    float: right;
+    font-size: 12px;
+}
+#principal figure figcaption{
+    width: 200px;
+}
+#principal figure img{
+    border: solid 4px black;
+	width: 200px;
+	height: 200px;
+}
+#principal > h1 {
+	width: 600px;
+    text-align: center;
+	margin: 50px auto 15px auto;
+    font-size: 28px;
+}
+#sec {
+    height: 480px;
+}
+#sec h3 {
+    font-size: 20px;
+    margin: 20px auto 10px auto;
+    text-align: center;
+}
+#sec p {
+    line-height: 1.2;
+}
+#sec p::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+#sec figure {
+    display: inline;
+    text-align: center;
+    font-size: 12px;
+}
+#sec figure figcaption{
+    width: 350px;
+}
+#sec figure img{
+	border: solid 4px black;
+	width: 350px;
+    margin: 10px 0;
+}
+#pri-img {
+    float: right;
+}
+#sec-img {
+    float: left;
+}
+#principal, #sec {
+	padding: 0 180px;
+    text-align: left;
+}
+iframe {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+    border: solid 4px black;
+    border-radius: 5px;
+}
+#sec-sobre {
+    height: 600px;
+}
+#sec-sobre h3 {
+    font-size: 20px;
+    margin: 20px auto 10px auto;
+    text-align: center;
+}
+#sec-sobre p {
+    line-height: 1.2;
+}
+#sec-sobre p::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+#sec-sobre figure {
+    display: inline;
+    text-align: center;
+    font-size: 12px;
+}
+#sec-sobre figure figcaption{
+    width: 350px;
+}
+#sec-sobre figure img{
+	border: solid 4px black;
+	width: 350px;
+    margin: 10px 0;
+}
+#sec-sobre {
+	padding: 0 180px;
+    text-align: left;
+}
+#sec-projetos section{
+    display: inline-block;
+    margin: 10px auto;
+    padding: 0 auto;
+    height: 100%;
+}
+#sec-projetos {
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+}
+#proj-sec {
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;;
+}
+#sec-projetos > h1 {
+    text-align: center;
+    width: 800px;
+    margin: 20px auto 10px auto;
+    font-size: 28px;
+}
+#sec-projetos h3 {
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
+#sec-projetos p {
+    line-height: 1.2;
+    text-align: justify;
+    width: 350px;
+    margin: 10px 5px 25px 5px;
+}
+#sec-projetos p::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+#sec-projetos figure {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+}
+#sec-projetos figure figcaption{
+    width: 350px;
+    margin-bottom: 10px;
+}
+#sec-projetos figure img{
+    text-align: center;
+	border: solid 4px black;
+	width: 250px;
+}
+.btn-sb {
+    text-align: center;
+    list-style: none;
+    padding-bottom: 20px;
+}
+.btn-sb a{
+    text-decoration: none;
+	font-weight: bold;
+	color:#000;
+	background:#d0893e;
+	border: solid #000 2px;
+	padding: 10px;
+	width: 50px;
+	border-radius: 4px;
+	font-size: 18px;
+}
+.btn-sb a:hover{
+	background: #ddad6e;
+}
+#principal figure #assinatura{
+    width: auto;
+    height: 200px;
+    border: none;
+}
