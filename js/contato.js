@@ -25,5 +25,7 @@ function ContatoC() {
         alert("Resposta invalida!");
     }
 
+    location.reload()
+    value.onunload()
 
 }
