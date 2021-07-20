@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" type="text/css" href="../css/content.css">
 	<link rel="stylesheet" type="text/css" href="../css/contato.css">
+	<script type="text/javascript" src="../js/contato.js"></script>
 </head>
 
 <body>
@@ -54,13 +55,13 @@
 			<input type="tel" id="telef" name="telef" placeholder="(11) 94002-8922" required><br><br>
 
 			<label for="serv">Qual o serviço / Sobre o que quer falar:</label><br>
-			<input type="radio" id="fot" name="serv" value="fot" checked>
+			<input type="radio" id="serv" name="fot" value="fot" checked>
 			<label for="fot">Fotos</label><br>
-			<input type="radio" id="edi" name="serv" value="edi">
+			<input type="radio" id="serv" name="edi" value="edi">
 			<label for="edi">Edição de video</label><br>
-			<input type="radio" id="pin" name="serv" value="pin">
+			<input type="radio" id="serv" name="pin" value="pin">
 			<label for="pin">Pintura</label><br>
-			<input type="radio" id="ilu" name="serv" value="ilu">
+			<input type="radio" id="serv" name="ilu" value="ilu">
 			<label for="ilu">Ilustração</label><br><br>
 
 			<label for="ped">Detalhes do pedido / Feedback:</label><br>
@@ -70,9 +71,9 @@
 
 			<br>
 			<script src="https://vivirenremoto.github.io/doomcaptcha/script.js?version=16" countdown="on"
-				label="Captcha" enemies="4"></script><br>
+				label="Captcha" enemies="4" required></script><br>
 
-			<button type="submit" value="Enviar">Enviar</button>
+			<button type="button" id="submit" name="submit" value="Enviar" onclick="ContatoC()">Enviar</button>
 			<button type="reset" value="Limpar">Limpar</button><br><br>
 		</form>
 	</section>
