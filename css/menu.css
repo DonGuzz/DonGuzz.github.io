@@ -13,8 +13,8 @@
 	float: right; 
 }/*OK*/
 #check:checked ~ .barra{
-	transform: translateY(115%);
-	height: 25%;
+	transform: translateY(350%);
+	height: max-content;
 }/*OK~*/
 #check-icon img {
 	width: 30px;
@@ -36,7 +36,7 @@
 	width: 300px;
 	position: absolute;
 	transition: all 0.2s linear;
-	top: -25%;
+	top: -50%;
 	right: 0;
 	clear: both;
 	float: right;

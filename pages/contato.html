@@ -26,9 +26,9 @@
 				<nav class="menu">
 					<li><a href="../pages/projetos.html">Projetos</a>
 						<ul class="sub-menu">
-							<li><a href="#">Tempestade no Sótão</a></li>
-							<li><a href="#">Ilustrando o Porão</a></li>
-							<li><a href="#">Fotografando Aurélio</a></li>
+							<li><a href="../pages/projetos.html">Tempestade no Sótão</a></li>
+							<li><a href="../pages/projetos.html">Ilustrando o Porão</a></li>
+							<li><a href="../pages/projetos.html">Fotografando Aurélio</a></li>
 						</ul>
 					</li>
 					<li><a href="../pages/sobre.html">Quem sou eu</a></li>
@@ -45,16 +45,16 @@
 		<form action="#" method="post">
 
 			<label for="nome">Nome:</label>
-			<input type="text" id="nome" name="nome" required><br><br>
+			<input type="text" id="nome" name="nome" placeholder="Gustavo Lourenço" required><br><br>
 
 			<label for="email">Email:</label>
-			<input type="text" id="email" name="email" required><br><br>
+			<input type="text" id="email" name="email" placeholder="gustavo.lourenço@gmail.com" required><br><br>
 
 			<label for="telef">Telefone:</label>
-			<input type="tel" id="telef" name="telef" required><br><br>
+			<input type="tel" id="telef" name="telef" placeholder="(11) 94002-8922" required><br><br>
 
 			<label for="serv">Qual o serviço / Sobre o que quer falar:</label><br>
-			<input type="radio" id="fot" name="serv" value="fot" required>
+			<input type="radio" id="fot" name="serv" value="fot" checked>
 			<label for="fot">Fotos</label><br>
 			<input type="radio" id="edi" name="serv" value="edi">
 			<label for="edi">Edição de video</label><br>
@@ -64,7 +64,9 @@
 			<label for="ilu">Ilustração</label><br><br>
 
 			<label for="ped">Detalhes do pedido / Feedback:</label><br>
-			<textarea id="ped" name="ped" maxlength="300" rows="5" cols="50" required></textarea><br>
+			<textarea id="ped" name="ped" maxlength="300" rows="5" cols="50"
+				placeholder="Fala ai, vamo fechar um trampo ou falar da vida, se tiver cerveja eu já to chegando!"
+				required></textarea><br>
 
 			<br>
 			<script src="https://vivirenremoto.github.io/doomcaptcha/script.js?version=16" countdown="on"

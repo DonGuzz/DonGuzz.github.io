@@ -1,11 +1,11 @@
 #cont-pri h1 {
-	width: 600px;
+	width: 50%;
     text-align: center;
 	margin: 50px auto 15px auto;
     font-size: 28px;
 }
 #cont-pri p{
-	width: 900px;
+	width: 70%;
 	margin: 10px auto;
     line-height: 1.2;
 	text-align: justify;
@@ -16,6 +16,8 @@
 }
 #cont-sec {
 	height: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 iframe {
 	float: none;
@@ -28,12 +30,11 @@ label{
 	display: inline-block;
 	height: 15px;
 }
+form label {
+	text-align: left;
+}
 section > form {
 	text-align: left;
-	padding-left: 500px;
-}
-form input#ped {
-	width: 300px;
-	height: 100px;
-	text-align: top;
+	width: max-content;
+	margin: 10px auto;
 }

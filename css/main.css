@@ -33,6 +33,7 @@ section {
 aside {
 	background-color: #d1913e;
 	height: 50px;
+	clear: both;
 }
 aside nav li img {
 	width: 40px;
@@ -64,4 +65,8 @@ footer {
 #nav-footer img:hover{
 	transform: rotate(360deg);
 	transition: all 0.4s linear;
+}
+hr {
+	margin: 10px auto;
+	clear: both;
 }
