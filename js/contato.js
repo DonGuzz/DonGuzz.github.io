@@ -26,6 +26,5 @@ function ContatoC() {
     }
 
     location.reload()
-    value.onunload()
 
 }
