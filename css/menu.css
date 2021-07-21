@@ -32,12 +32,12 @@
 	transition: all 0.4s linear;
 }/*OK*/
 .barra {
-	height: 0%;
+	height: max-content;
 	width: 300px;
 	position: absolute;
 	transition: all 0.2s linear;
 	top: -50%;
-	right: 0;
+	right: 5px;
 	clear: both;
 	float: right;
 	margin-top: 60px;

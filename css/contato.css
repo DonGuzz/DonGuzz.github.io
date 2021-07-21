@@ -36,5 +36,5 @@ form label {
 section > form {
 	text-align: left;
 	width: max-content;
-	margin: 10px auto;
+	margin: 0 auto;
 }
